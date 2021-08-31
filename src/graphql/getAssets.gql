@@ -1,0 +1,8 @@
+query getAssets {
+  getAssets {
+    id
+    symbol
+    slug
+    name
+  }
+}

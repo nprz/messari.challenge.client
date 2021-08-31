@@ -1,0 +1,9 @@
+query getMetrics($asset: String!) {
+  getMetrics(asset: $asset) {
+    currentUSDPrice
+    ath
+    athDate
+    marketCapRank
+    marketCapUSD
+  }
+}

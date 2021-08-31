@@ -1,0 +1,12 @@
+query getTimeSeries($asset: String!) {
+  getTimeSeries(asset: $asset) {
+    values {
+      time
+      open
+      high
+      low
+      close
+      volume
+    }
+  }
+}
